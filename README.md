@@ -2,9 +2,7 @@
 
 - Contention is when multiple DB transactions are wanting to read/update the same resource (think row)
 - Solutions:
-
   - Single DB node:
-
     1. Pessimistic Locks (Think `FOR UPDATE`):
        a. Assumes that contentions/race will eventually happen, therefore acts in advance.
        b. Suited for high contention scenarios/write heavy systems.
@@ -22,17 +20,20 @@
        c. Low performance implication.
 
 - Multiple DB nodes:
-
   - The problem gets significantly difficult here. Requires coordination between multiple nodes.
-
   1. Two-phase Commit (2PC):
-
      - Coordinatar and nodes. Coordinator issues Prepare and Commit commands.
      - Extremely flaky and under-performant.
      - However, provides strong consistency gurantees. Therefore, keep it as a last resort, but when you need it, then you need it!
 
   2. Distributed locks (Think `Redis TTL`, `Zookeeeper/etcd`):
-
      - Top choice when you need application level distributed locking for better UX. Think seat reservation for a small window of time.
 
 ![contention-pattern](contention-pattern.png)
+
+# On Scaling Reads
+
+- When a need to scale read arises, follow this (in order):
+  - Optimize read performance within your DB (index & denormalization)
+  - Scale your DB horizontally (read replicas and/or sharding)
+  - Add external caching layers (application and/or CDN)
