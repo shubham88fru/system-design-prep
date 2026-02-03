@@ -37,3 +37,14 @@
   - Optimize read performance within your DB (index & denormalization)
   - Scale your DB horizontally (read replicas and/or sharding)
   - Add external caching layers (application and/or CDN)
+
+# On Redis
+
+## Popular Usecases
+
+- Cache
+- Rate limiter
+- Stream
+- Heap
+- Geospatial Indexes
+- Pub/Sub
