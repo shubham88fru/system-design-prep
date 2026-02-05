@@ -38,11 +38,12 @@
   - Scale your DB horizontally (read replicas and/or sharding)
   - Add external caching layers (application and/or CDN)
 
-# On Redis
+# On Redis (In-memory datastructure store)
 
 ## Popular Usecases
 
 - Cache
+- Distributed locks
 - Rate limiter
 - Stream
 - Heap
