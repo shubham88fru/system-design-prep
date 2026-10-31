@@ -6,6 +6,11 @@
 
 ![delivery-framework](img/delivery-framework.png)
 
+1. Requirements (Features)
+   - Functional (`User` should be able to..)
+   - Non-functional (`System` should be.. `..ities`, CAP, Latency, Scalable, Reliable)
+     - Quantify also: e.g. latecy should be less than 100ms v/s low latency.
+
 # On Contention
 
 - Contention is when multiple DB transactions are wanting to read/update the same resource (think row)
