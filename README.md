@@ -6,10 +6,14 @@
 
 ![delivery-framework](img/delivery-framework.png)
 
-1. Requirements (Features)
+1. Requirements (Features) (˜5 mins)
    - Functional (`User` should be able to..)
    - Non-functional (`System` should be.. `..ities`, CAP, Latency, Scalable, Reliable)
      - Quantify also: e.g. latecy should be less than 100ms v/s low latency.
+
+2. Core Entities (˜2 mins)
+   - These are the core entities that your API will exchange and that your system will persist in a Data Model.
+   - Who are the actors in the system? Are they overlapping? What are the nouns or resources necessary to satisfy the functional requirements?
 
 # On Contention
 
