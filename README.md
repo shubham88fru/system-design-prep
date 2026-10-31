@@ -2,6 +2,10 @@
 
 ![interview-rubric](interview-rubric.png)
 
+# Delivery framework
+
+![delivery-framework](delivery-framework.png)
+
 # On Contention
 
 - Contention is when multiple DB transactions are wanting to read/update the same resource (think row)
