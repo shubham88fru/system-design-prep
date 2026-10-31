@@ -26,6 +26,10 @@
 4. (Optional) Data Flow (˜5 mins)
    - Define high level sequence of action in the system. You'll need it when you need it.
 
+5. High level design (10-15 mins)
+   - Primary goal is to design an architecture that satisfies the API we've designed in the prev steps, and thus, the requirements we've identified.
+   - Start with simple/straight forward design for each component that satisfies the APIs, even if they seem naive. Complexity can then be layered and will naturally come as we start satisfying the non functional requirements.
+
 # On Contention
 
 - Contention is when multiple DB transactions are wanting to read/update the same resource (think row)
