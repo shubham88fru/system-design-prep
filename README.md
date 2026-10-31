@@ -1,3 +1,7 @@
+# Assesment areas
+
+![interview-rubric](interview-rubric.png)
+
 # On Contention
 
 - Contention is when multiple DB transactions are wanting to read/update the same resource (think row)
