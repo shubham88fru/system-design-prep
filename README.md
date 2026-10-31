@@ -1,10 +1,10 @@
 # Assesment areas
 
-![interview-rubric](interview-rubric.png)
+![interview-rubric](img/interview-rubric.png)
 
 # Delivery framework
 
-![delivery-framework](delivery-framework.png)
+![delivery-framework](img/delivery-framework.png)
 
 # On Contention
 
@@ -37,7 +37,7 @@
   2. Distributed locks (Think `Redis TTL`, `Zookeeeper/etcd`):
      - Top choice when you need application level distributed locking for better UX. Think seat reservation for a small window of time.
 
-![contention-pattern](contention-pattern.png)
+![contention-pattern](img/contention-pattern.png)
 
 # On Scaling Reads
 
