@@ -23,6 +23,9 @@
      - GraphQL: Allows clients to specify exactly what data they want to receive, avoiding over-fetching and under-fetching. Choose this when you have diverse clients with different data needs.
      - RPC: Action-oriented protocol (like gRPC) that's faster than REST for service-to-service communication. Use for internal APIs when performance is critical.
 
+4. (Optional) Data Flow (˜5 mins)
+   - Define high level sequence of action in the system. You'll need it when you need it.
+
 # On Contention
 
 - Contention is when multiple DB transactions are wanting to read/update the same resource (think row)
