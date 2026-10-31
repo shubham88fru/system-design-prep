@@ -15,6 +15,14 @@
    - These are the core entities that your API will exchange and that your system will persist in a Data Model.
    - Who are the actors in the system? Are they overlapping? What are the nouns or resources necessary to satisfy the functional requirements?
 
+3. API or System interface (˜5 mins)
+   - Usually, this maps directly to the functional requirements we've already identified (but not always!). i.e. usually one API for each
+     core func requirement.
+   - API Protocol choices (always default to REST unless there's a usecase for the other.)
+     - REST
+     - GraphQL: Allows clients to specify exactly what data they want to receive, avoiding over-fetching and under-fetching. Choose this when you have diverse clients with different data needs.
+     - RPC: Action-oriented protocol (like gRPC) that's faster than REST for service-to-service communication. Use for internal APIs when performance is critical.
+
 # On Contention
 
 - Contention is when multiple DB transactions are wanting to read/update the same resource (think row)
