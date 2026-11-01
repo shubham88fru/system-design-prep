@@ -30,7 +30,7 @@
    - Primary goal is to design an architecture that satisfies the API we've designed in the prev steps, and thus, the requirements we've identified.
    - Start with simple/straight forward design for each component that satisfies the APIs, even if they seem naive. Complexity can then be layered and will naturally come as we start satisfying the non functional requirements, and can be elaborately tackled in the deep dive section of the interview.
 
-6. ## Deep dive (˜10 mins)
+6. Deep dive (˜10 mins)
    - Mainly to satisfy the non-fuctional reqs (`..ities`) we had noted down.
 
 # On Contention
